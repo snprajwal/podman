@@ -7,7 +7,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/buger/goterm v1.0.4
 	github.com/checkpoint-restore/checkpointctl v0.0.0-20220321135231-33f4a66335f0
-	github.com/checkpoint-restore/go-criu/v5 v5.3.0
+	github.com/checkpoint-restore/go-criu/v6 v6.0.0
 	github.com/container-orchestrated-devices/container-device-interface v0.5.0
 	github.com/containernetworking/cni v1.1.2
 	github.com/containernetworking/plugins v1.1.1
@@ -71,3 +71,5 @@ require (
 )
 
 replace github.com/opencontainers/runc => github.com/opencontainers/runc v1.1.1-0.20220617142545-8b9452f75cbc
+
+replace github.com/checkpoint-restore/go-criu/v6 => github.com/snprajwal/go-criu/v6 v6.0.0-20220904115620-ff17dead0aaf
